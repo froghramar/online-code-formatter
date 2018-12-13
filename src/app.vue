@@ -10,8 +10,6 @@
     </v-app>
 </template>
 
-<style lang="scss" src="./app.scss"></style>
-
 <script lang="ts">
 
     export default {
@@ -22,3 +20,5 @@
         },
     };
 </script>
+
+<style lang="scss" src="./app.scss"></style>

@@ -3,50 +3,15 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 10px;
 }
-#nav {
+.v-navigation-drawer {
     padding: 30px;
     a {
+        display: block;
         font-weight: bold;
         color: #2c3e50;
         &.router-link-exact-active {
             color: #42b983;
         }
     }
-}
-
-.ocf-header { grid-area: header; }
-.ocf-left-nav {
-    grid-area: menu;
-    padding: 30px;
-    a {
-        font-weight: bold;
-        color: #2c3e50;
-        &.router-link-exact-active {
-            color: #42b983;
-        }
-    }
-}
-.ocf-main-content { grid-area: main; }
-.ocf-footer { grid-area: footer; }
-
-.grid-container {
-    display: grid;
-    grid-template-areas:
-        'header header header header header header'
-        'menu main main main main main'
-        'menu footer footer footer footer footer';
-    grid-gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
-}
-
-.grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
 }

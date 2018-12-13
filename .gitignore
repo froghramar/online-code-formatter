@@ -1,0 +1,6 @@
+# Generated Folders
+node_modules/
+.idea/
+
+# Generated Files
+package-lock.json
